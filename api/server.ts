@@ -1,13 +1,3 @@
-// * Para que a importação do express fosse feita dessa forma, foi necessário definir o type no package.json como module.
-
-/*
-    Query params (?) : parâmetros da url que guardam informação do estado (ex: http://meusite/home?page=2)
-    
-    Route params (/) : Parâmetros intrínsecos da url que identificam recursos da api
-
-    Body params: Informações enviadas ao backend para criação dos dados
-*/
-
 import express from "express";
 import cors from "cors";
 import { PrismaClient } from "@prisma/client";
@@ -62,8 +52,6 @@ app.post("/games/:id/ads", async (req, res) => {
 });
 
 //listagem de anúncios por game
-// /games/id/ads ==> listando os {ads} de {games} cujo {id} é...
-// os : indicam que o id é uma informação dinâmica
 app.get("/games/:id/ads", async (req, res) => {
   const gameId = req.params.id;
   const ads = await prisma.ad.findMany({
@@ -114,5 +102,3 @@ app.get("/ads/:id/discord", async (req, res) => {
 });
 
 app.listen(3333);
-
-//Biblioteca para validação do banco: Zod
