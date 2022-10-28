@@ -146,7 +146,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
 [logo]: https://drive.google.com/uc?id=10sQ1VZYdwZ30gkp73-O1L8HszvUT23IQ
-[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
+[license-shield]: https://img.shields.io/github/license/LeAmSa/nlw-esports-api?style=for-the-badge
 [license-url]: https://github.com/LeAmSa/nlw-esports-api/blob/main/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/leandroamorimsalles1994
